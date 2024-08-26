@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 700px;
+}
+.accordian {
+  width: 50%;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box-1 {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 100px 10px 100px;
+  column-gap: 15px;
+  gap: 20px;
+  width: 75%;
+  /* height: 50px; */
+  border-radius: 10px;
+  align-items: center;
+  padding: 30px;
+  cursor: pointer;
+  background: linear-gradient(to right, tomato 20%, white 20%);
+}
+
+.hidden-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  gap: 10px;
+  display: none;
+}
+
+#discounts {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#price {
+  font-size: large;
+}
+
+#dollar {
+  font-weight: bold;
+}
+
+.active .hidden-box {
+  display: flex;
+}
+
+header {
+  margin-left: 200px;
+  padding: 20px;
+  color: tomato;
+  font-size: 25px;
+}
+
+#delivery {
+  display: flex;
+  gap: 300px;
+  margin-top: 15px;
+}
+
+#free {
+  color: tomato;
+  font-size: 20px;
+}
+
+#total {
+  font-size: 20px;
+}
+
+#cart {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: tomato;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  width: 75%;
+  border-radius: 10px;
+}
+
+#offer {
+  display: flex;
+  flex-direction: row;
+}
